@@ -18,4 +18,4 @@ A simple web page with modern HTML and Bootstrap elements. Categorized content i
 - Single line comments for code-readability
 - Dark mode switcher at the right-top corner of the page
 
-**Note:** If you want see live preview of project, visit [asaribatur.github.io/to-do-list](https://asaribatur.github.io/to-do-list/)
+**Note:** If you want see live preview of the project, visit [asaribatur.github.io/asian-kitchen](https://asaribatur.github.io/asian-kitchen/)

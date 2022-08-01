@@ -126,16 +126,19 @@ function darkModeSwitcher() {
   const desc = document.querySelectorAll(".card-text");
   var element = document.body;
   let cb = document.getElementById("flexSwitchCheckChecked");
+  let lbl = document.querySelector("#lblDarkMode");
 
   if (cb.checked) {
     element.classList.add("dark-mode");
     desc.forEach((val, index) => {
       desc[index].classList.add("desc-dark-mode");
     });
+    lbl.innerText = "Light Mode";
   } else {
     element.classList.remove("dark-mode");
     desc.forEach((val, index) => {
       desc[index].classList.remove("desc-dark-mode");
     });
+    lbl.innerText = "Dark Mode";
   }
 }
