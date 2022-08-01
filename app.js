@@ -101,10 +101,10 @@ function getContent(obj) {
     let content = `
     <div class="card menu-items" style="max-width: 540px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col-sm-4 d-flex justify-content-center">
           <img src=${country[i].img} class="img-fluid rounded-start photo" alt="${country[i].title}">
         </div>
-        <div class="col-md-8">
+        <div class="col-sm-8">
           <div class="card-body">
             <p class="card-title menu-title"><span>${country[i].title}</span><span class="float-end">${country[i].price}</span></p>
             <hr class="border border-danger border-2 opacity-50">

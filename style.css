@@ -41,8 +41,10 @@ h2 {
 .photo {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 175px;
-  height: 175px;
+  width: 15vmax;
+  height: 15vmax;
+  min-width: 175px;
+  min-height: 175px;
   object-fit: cover;
   border: 0.1rem solid gray;
   border-radius: 10px;
